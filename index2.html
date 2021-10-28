@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        let wid = window.screen.width
+        document.documentElement.style.fontSize = (wid / 7.5) + "px"
+    </script>
+    <style>
+        body, ul, li, p, h1, h2, h3, h4, h5, h6, hr, span, form, fieldset, table, td, img, div, dl, dt, dd, input {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        body, html {
+            font: 14px/28px "Microsoft YaHei";
+            width: 100%;
+            height: 100%;
+        }
+
+        a {
+            text-decoration: none;
+            outline: none;
+        }
+
+        img {
+            list-style: none;
+            border: none;
+            display: block;
+            margin: 0 auto;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        * {
+            word-break: break-all;
+        }
+
+        html {
+            overflow-x: hidden;
+            overflow-y: auto;
+        }
+
+        .img {
+            width: 100%;
+        }
+
+        .main-body {
+            position: relative;
+        }
+
+        .name {
+            position: absolute;
+            background-color: #3162f6;
+            box-sizing: border-box;
+            padding: 0.4rem 0.2rem;
+            color: white;
+            top: 5.7rem;
+            left: 3.5rem;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+<div class="main-body">
+    <img src="main.png" class="img" alt="111">
+    <div class="name">罗丹萍</div>
+</div>
+</body>
+</html>
