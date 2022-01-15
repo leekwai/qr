@@ -11,7 +11,7 @@
             //获取当前时间
             let date = new Date();
             //格式化为本地时间格式
-            let str = (date.getMonth() + 1) <10 ? ('0'+(date.getMonth() + 1)) + "月": (date.getMonth() + 1) + "月"
+            let str = "0" + (date.getMonth() + 1) + "月"
             str += date.getDate() < 10 ? ('0' + date.getDate()) : date.getDate()
             str += "日 " + (date.getHours() < 10 ? ('0' + date.getHours()) : date.getHours())
             str += ":" + (date.getMinutes() < 10 ? ('0' + date.getMinutes()) : date.getMinutes())
